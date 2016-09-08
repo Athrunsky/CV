@@ -284,6 +284,13 @@ section h2 {
     padding-left: 30px;
     margin: 0;
   }
+  header {
+    height: 337px;
+  }
+  .title {
+    float: none;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -293,6 +300,11 @@ section h2 {
 @media screen and (min-width: 992px) {
   .container {
     width: 970px;
+  }
+  .column-6 {
+    width: 100%;
+    float: none;
+    padding: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -322,5 +334,10 @@ section h2 {
   }
   .visible-lt-sm {
     display: block;
+  }
+  .column {
+    width: 100%;
+    float: none;
+    padding: 0;
   }
 }
